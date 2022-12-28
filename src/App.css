@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  margin: 10px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
